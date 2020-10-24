@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <main>
+<form action="" method="get">
+    
+<input type="text" name="myname" required placeholder="Please enter your name"/>
+<button type="submit">Submit</button>
+
+<input type="email" name="myemail" required placeholder="Enter your email" value="myemail@example.com">
+<!--passing my name as a parameter, seen in link at the top-->
+
+<input type="password" minlength="8" placeholder="yourpassword" name="mypw">
+<!--you probably want a post request for password, because password is seen in the link,
+     server is needed to handle posts-->
+
+     <br>
+     <br>
+     My radio buttons
+     <input type="radio" name="choice1" id="choice1" value="ch1">
+<label for="choice1">Choice 1</label>
+<input type="radio" name="choice2" id="choice2" value="ch2">
+<label for="choice2">Choice 2</label>
+<input type="radio" name="choice3" id="choice3" value="ch3">
+<label for="choice3">Choice 3</label>
+<input type="radio" name="choice4" id="choice4" value="ch4">
+<label for="choice4">Choice 4</label>
+<!--id have to be unique, radio buttons need to be grouped-->
+
+<br>
+<div>
+My Checkboxes
+<input type="checkbox" id="scales" name="scales">
+<label for="scales">Scales</label>
+<input type="checkbox" id="horns" name="horns">
+<label for="horns">Horns</label>
+</div>
+
+<input type="color" name="my colors" id="my colors">
+<input type="date" name="my date" id="my date">
+<input type="datetime-local" name="localtime" id="localtime">
+
+<input type="range" name="myrange" id="myrange" min="5" max="50">
+
+
+</form>
+<!--get request - requesting some information online
+post is used for changing stuff, e.g., passwords-->
+    </main>
+</body>
+</html>

@@ -1,0 +1,11 @@
+p {background-color: sienna;}
+
+@media (max-width: 768px) {
+    p {background-color: pink;
+    } 
+}
+
+@media(max-width: 576px) {
+    p {background-color: salmon;}
+}
+

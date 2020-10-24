@@ -1,0 +1,12 @@
+p {background-color: sienna;}
+
+@media(min-width: 576px) {
+    p {background-color: salmon;}
+}
+
+
+@media (min-width: 768px) {
+    p {background-color: pink;
+    } 
+}
+
